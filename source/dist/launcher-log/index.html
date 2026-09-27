@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+  <head>
+    <style>
+      :root {
+        --primary-bg-color: 13, 16, 18;
+        --secondary-bg-color: 6, 9, 12;
+
+        --primary-contrast-color: 221, 53, 56;
+        --primary-contrast-active-color: 179, 43, 45;
+        --secondary-contrast-color: 77, 18, 19;
+
+        --primary-neutral-color: 74, 74, 74;
+        --secondary-neutral-color: 122, 122, 122;
+
+        --primary-text-color: 255, 255, 255;
+        --primary-active-text-color: 50, 223, 88;
+
+        --primary-edge-color: 0, 0, 0;
+
+        --color-primary-success: 42, 147, 40;
+        --color-primary-error: 221, 53, 56;
+        --color-primary-warn: 248, 252, 66;
+        --color-primary-info: 50, 213, 223;
+
+        --color-online: var(--color-primary-success);
+        --color-away: 248, 252, 66;
+        --color-busy: var(--color-primary-error);
+        --color-invisible: 140, 140, 140;
+        --color-offline: 0, 0, 0;
+
+        --button-primary-color: rgba(var(--primary-contrast-color), 1);
+        --button-primary-text: rgba(var(--primary-text-color), 1);
+        --button-primary-hover-shadow: rgba(var(--primary-contrast-color), .3);
+        --button-secondary-color: rgba(var(--primary-text-color), .03);
+        --button-secondary-text: rgba(var(--primary-text-color), .9);
+        --button-secondary-hover-shadow: rgba(var(--primary-text-color), .02);
+
+        --timing-event: .4s;
+        --timing-transition: .3s;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>Feather Log Viewer</title>
+    <base href="./">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+  <style>@charset "UTF-8";:root{--fa-style-family-classic:"Font Awesome 6 Free";--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"}@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:block;src:url(fa-solid-900.0b0cc8a6df2a4fc7.woff2) format("woff2"),url(fa-solid-900.69d3141ae4b2f721.ttf) format("truetype")}:root{--fa-style-family-brands:"Font Awesome 6 Brands";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:block;src:url(fa-brands-400.87587a681474fe69.woff2) format("woff2"),url(fa-brands-400.5d18d427c08f12c3.ttf) format("truetype")}*{margin:0;padding:0;box-sizing:border-box;outline:none;font-family:inherit;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}html,body{width:100%;height:100%;overflow:hidden}html{font:10px/12px FontPrimary;color:rgba(var(--primary-text-color),1);background-color:rgba(var(--primary-bg-color),1)}html body{min-width:320px;overflow-x:auto;overflow-y:hidden}@media screen and (max-width: 1023px),screen and (max-height: 599px){html{font-size:10px}}@media screen and (min-width: 1024px) and (min-height: 600px){html{font-size:8px}}@media screen and (min-width: 1280px) and (min-height: 700px){html{font-size:9px}}@media screen and (min-width: 1366px) and (min-height: 900px){html{font-size:10px}}@media screen and (min-width: 1980px) and (min-height: 1200px){html{font-size:11px}}@media screen and (min-width: 2560px) and (min-height: 1440px){html{font-size:12px}}@media screen and (min-width: 3840px) and (min-height: 2160px){html{font-size:14px}}@media screen and (min-width: 3840px) and (min-height: 2160px){html{font-size:16px}}@font-face{font-family:FontPrimary;src:url(launcher-primary-bold.4078392488f5bc0a.woff);font-weight:500;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-black.c9dce4b6511b74f2.woff);font-weight:900;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-black-italic.ecb48ed8a682fa0e.woff);font-weight:900;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-bold.4078392488f5bc0a.woff);font-weight:700;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-bold-italic.94e49e750b579350.woff);font-weight:700;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-extra-bold.e1a351ad4b362f2c.woff);font-weight:800;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-extra-bold-italic.09fb821a504e8a70.woff);font-weight:800;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-extra-light.98a981609d803d1d.woff);font-weight:200;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-extra-light-italic.2ec8609eb2ff5701.woff);font-weight:200;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-italic.092a86e6efcab9ce.woff);font-weight:500;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-light.b26ec1afa34fe127.woff);font-weight:300;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-light-italic.f11e7c93f2616f91.woff);font-weight:300;font-style:italic}@font-face{font-family:FontPrimary;src:url(launcher-primary-semi-bold.ebc462459a6af5ee.woff);font-weight:600;font-style:normal}@font-face{font-family:FontPrimary;src:url(launcher-primary-semi-bold-italic.227a18462ce9d640.woff);font-weight:600;font-style:italic}</style><link rel="stylesheet" href="styles.51282123286cdb94.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.51282123286cdb94.css"></noscript></head>
+  <body>
+    <feather-app></feather-app>
+  <script src="runtime.f0385eabdd793a20.js" type="module"></script><script src="polyfills.698c0be02e8afce0.js" type="module"></script><script src="main.77a9746c6f8a4be2.js" type="module"></script></body>
+</html>

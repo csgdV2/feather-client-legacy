@@ -1,0 +1,6 @@
+provider: generic
+url: https://launcher.feathercdn.net/dl/
+channel: c
+updaterCacheDirName: feather-updater
+publisherName:
+  - Digital Ingot, Inc.

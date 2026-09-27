@@ -1,0 +1,49 @@
+# Generated and local files
+node_modules/
+**/node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Repacked launcher archives and backups
+app/resources/app.asar.offline.new
+app/resources/app.asar.*.bak
+app/resources/app.asar.pre-*
+
+# Temporary packaging output
+*.tmp
+
+# Installer build intermediates
+installer-stage-*/
+uninstaller-stage-*/
+uninstall-work-*/
+installer-payload-*.7z
+full-installer-payload-*.7z
+uninstall-payload-*.7z
+installer-config.txt
+uninstaller-config.txt
+7z.sfx.with-icon
+Feather-Legacy-Client-Setup*.exe
+Feather-Legacy-Client-Setup-With-Icon.exe
+Feather-Legacy-Client-Setup-Final.exe
+Feather-Legacy-Client-Installer.exe
+
+# Local installer compiler output
+final-installer-payload.7z
+uninstall-final.7z
+install-final.ps1
+uninstall-final.ps1
+installer-final-config.txt
+uninstaller-final-config.txt
+
+
+# Extracted vendor files and local-only backups
+/app/Feather Launcher.exe.orig
+/app/Uninstall.exe
+/extracted/
+
+
+
+# Keep the local Electron launcher binary out of ordinary Git history
+/app/Feather Launcher.exe
+

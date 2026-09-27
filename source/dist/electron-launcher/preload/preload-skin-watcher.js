@@ -1,0 +1,1 @@
+"use strict";var{fork:a}=require("child_process"),t=require("path"),n,r;function o(){return n||(n=a(t.join(__dirname,"preload-skin-watcher-fork.js")),n.on("message",c)),n}function c(e){r&&r(e.onChange)}function h(e){o().send({run:e})}function i(e){r=e}module.exports={runSkinWatcherProcess:h,setSkinWatcherCatalogChangeHandler:i};
