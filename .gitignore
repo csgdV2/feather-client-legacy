@@ -41,9 +41,3 @@ uninstaller-final-config.txt
 /app/Feather Launcher.exe.orig
 /app/Uninstall.exe
 /extracted/
-
-
-
-# Keep the local Electron launcher binary out of ordinary Git history
-/app/Feather Launcher.exe
-

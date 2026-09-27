@@ -19,13 +19,6 @@ Copy-Item .\app\resources\app.asar.offline.new .\app\resources\app.asar -Force
 
 Keep a backup of `app/resources/app.asar` before replacing it if you need to restore the original launcher.
 
-
-
-## VirusTotal scan
-
-[View the VirusTotal file analysis](https://www.virustotal.com/gui/file-analysis/ZjMxNzQzOWM4NGNlNTc4Yjk2ZmU5NWYxNTgyMjllNWM6MTc5MDU0OTgxNA==)
-
-
 To build the Windows setup wizard, install Inno Setup and run:
 
 ```powershell
@@ -38,6 +31,3 @@ To compile the Windows setup wizard, install Inno Setup 7 and run:
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Inno Setup 7\ISCC.exe" .\Feather-Legacy-Client.iss
 ```
-
-
-
